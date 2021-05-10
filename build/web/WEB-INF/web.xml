@@ -4,9 +4,17 @@
         <servlet-name>BloggerController</servlet-name>
         <servlet-class>com.controllers.BloggerController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AdminController</servlet-name>
+        <servlet-class>com.controllers.AdminController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>BloggerController</servlet-name>
         <url-pattern>/BloggerController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminController</servlet-name>
+        <url-pattern>/AdminController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
